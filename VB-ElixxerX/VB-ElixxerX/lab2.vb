@@ -5,9 +5,12 @@
         computer = Val(txtComputer.Text)
         printer = Val(txtPrinter.Text)
         totalSale = computer + printer
-        com1 = totalSale * 0.05
-        com2 = totalSale * 0.1
+        com1 = computer * 0.05
+        com2 = printer * 0.1
         comsum = com1 + com2
+
+
+
         lbltotal.Text = totalSale
         lblcom1.Text = com1
         lblcom2.Text = com2

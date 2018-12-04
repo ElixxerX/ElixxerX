@@ -8,3 +8,13 @@ D:\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB-ElixxerX.exe
 D:\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB-ElixxerX.xml
 D:\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB-ElixxerX.pdb
 D:\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.lab2.resources
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB-ElixxerX.exe
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB-ElixxerX.xml
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB-ElixxerX.pdb
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\bin\Debug\VB-ElixxerX.exe
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\bin\Debug\VB-ElixxerX.pdb
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\bin\Debug\VB-ElixxerX.xml
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.lab1.resources
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.lab2.resources
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.Resources.resources
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB-ElixxerX.vbproj.GenerateResource.Cache

@@ -41,7 +41,6 @@ Partial Class lab2
         '
         'lbltotal
         '
-        Me.lbltotal.AutoSize = True
         Me.lbltotal.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.lbltotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbltotal.ForeColor = System.Drawing.Color.Yellow
@@ -134,7 +133,6 @@ Partial Class lab2
         '
         'lblcom1
         '
-        Me.lblcom1.AutoSize = True
         Me.lblcom1.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.lblcom1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lblcom1.ForeColor = System.Drawing.Color.Yellow
@@ -146,7 +144,6 @@ Partial Class lab2
         '
         'lblcom2
         '
-        Me.lblcom2.AutoSize = True
         Me.lblcom2.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.lblcom2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lblcom2.ForeColor = System.Drawing.Color.Yellow
@@ -158,7 +155,6 @@ Partial Class lab2
         '
         'lbltotalcom
         '
-        Me.lbltotalcom.AutoSize = True
         Me.lbltotalcom.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.lbltotalcom.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
         Me.lbltotalcom.ForeColor = System.Drawing.Color.Yellow
