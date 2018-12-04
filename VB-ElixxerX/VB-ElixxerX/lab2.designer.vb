@@ -48,7 +48,6 @@ Partial Class lab2
         Me.lbltotal.Name = "lbltotal"
         Me.lbltotal.Size = New System.Drawing.Size(120, 16)
         Me.lbltotal.TabIndex = 17
-        Me.lbltotal.Text = "                            "
         '
         'Label6
         '
@@ -140,7 +139,6 @@ Partial Class lab2
         Me.lblcom1.Name = "lblcom1"
         Me.lblcom1.Size = New System.Drawing.Size(120, 16)
         Me.lblcom1.TabIndex = 18
-        Me.lblcom1.Text = "                            "
         '
         'lblcom2
         '
@@ -151,7 +149,6 @@ Partial Class lab2
         Me.lblcom2.Name = "lblcom2"
         Me.lblcom2.Size = New System.Drawing.Size(120, 16)
         Me.lblcom2.TabIndex = 19
-        Me.lblcom2.Text = "                            "
         '
         'lbltotalcom
         '
@@ -162,7 +159,6 @@ Partial Class lab2
         Me.lbltotalcom.Name = "lbltotalcom"
         Me.lbltotalcom.Size = New System.Drawing.Size(120, 16)
         Me.lbltotalcom.TabIndex = 20
-        Me.lbltotalcom.Text = "                            "
         '
         'Button1
         '
