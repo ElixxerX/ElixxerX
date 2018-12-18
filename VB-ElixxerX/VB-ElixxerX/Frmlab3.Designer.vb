@@ -88,13 +88,13 @@ Partial Class Frmlab3
         'cboSize
         '
         Me.cboSize.AccessibleName = ""
+        Me.cboSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSize.FormattingEnabled = True
         Me.cboSize.Items.AddRange(New Object() {"12", "14", "16", "18", "20", "22", "24", "26", "28", "30", "32", "34", "36", "38", "40", "42", "44", "46", "48", "50"})
         Me.cboSize.Location = New System.Drawing.Point(446, 141)
         Me.cboSize.Name = "cboSize"
         Me.cboSize.Size = New System.Drawing.Size(89, 21)
         Me.cboSize.TabIndex = 3
-        Me.cboSize.Text = "12"
         '
         'GroupBox1
         '

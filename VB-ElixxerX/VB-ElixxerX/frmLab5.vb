@@ -1,18 +1,20 @@
 ﻿Public Class frmLab5
     Dim decTotal, decDiscount, decNumber, decNet, decCredit As Double
     Private Sub btnCalculate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCalculate.Click
-        If decTotal < 1000 Then
+        If decTotal < 1000 And radPaid.Checked And radMember.Checked Then
             decDiscount = 0
             lblDiscount.Text = "0%"
-        ElseIf decTotal < 5000 Then
+        ElseIf decTotal < 5000 And radPaid.Checked And radMember.Checked Then
             decDiscount = 0.05
             lblDiscount.Text = "5%"
-        ElseIf decTotal < 10000 Then
+        ElseIf decTotal < 10000 And radPaid.Checked And radMember.Checked Then
             decDiscount = 0.1
             lblDiscount.Text = "10%"
-        Else
+        ElseIf decTotal >= 10000 And radPaid.Checked And radMember.Checked Then
             decDiscount = 0.15
             lblDiscount.Text = "15%"
+        Else
+            decDiscount = 0
         End If
         decDiscount = decTotal * decDiscount
         decNet = decTotal - decDiscount
