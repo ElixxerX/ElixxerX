@@ -27,27 +27,27 @@ Partial Class Frmlab3
         Me.txtInput = New System.Windows.Forms.TextBox()
         Me.cboSize = New System.Windows.Forms.ComboBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.lblFRad = New System.Windows.Forms.Label()
-        Me.lblFBlue = New System.Windows.Forms.Label()
-        Me.lblFGreen = New System.Windows.Forms.Label()
-        Me.lblFViolet = New System.Windows.Forms.Label()
-        Me.lblFBlack = New System.Windows.Forms.Label()
-        Me.lblFOrange = New System.Windows.Forms.Label()
-        Me.lblFYellow = New System.Windows.Forms.Label()
-        Me.lblFBeown = New System.Windows.Forms.Label()
-        Me.lblFWhile = New System.Windows.Forms.Label()
         Me.lblFSky = New System.Windows.Forms.Label()
+        Me.lblFWhile = New System.Windows.Forms.Label()
+        Me.lblFBeown = New System.Windows.Forms.Label()
+        Me.lblFYellow = New System.Windows.Forms.Label()
+        Me.lblFOrange = New System.Windows.Forms.Label()
+        Me.lblFBlack = New System.Windows.Forms.Label()
+        Me.lblFViolet = New System.Windows.Forms.Label()
+        Me.lblFGreen = New System.Windows.Forms.Label()
+        Me.lblFBlue = New System.Windows.Forms.Label()
+        Me.lblFRad = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.lblBSky = New System.Windows.Forms.Label()
-        Me.lblBWhite = New System.Windows.Forms.Label()
-        Me.lblBBrown = New System.Windows.Forms.Label()
-        Me.lblBYellow = New System.Windows.Forms.Label()
-        Me.lblBOrange = New System.Windows.Forms.Label()
         Me.lblBBlack = New System.Windows.Forms.Label()
-        Me.lblBViolet = New System.Windows.Forms.Label()
-        Me.lblBGreen = New System.Windows.Forms.Label()
-        Me.lblBBlue = New System.Windows.Forms.Label()
+        Me.lblBWhite = New System.Windows.Forms.Label()
         Me.lblBRad = New System.Windows.Forms.Label()
+        Me.lblBBrown = New System.Windows.Forms.Label()
+        Me.lblBBlue = New System.Windows.Forms.Label()
+        Me.lblBYellow = New System.Windows.Forms.Label()
+        Me.lblBGreen = New System.Windows.Forms.Label()
+        Me.lblBOrange = New System.Windows.Forms.Label()
+        Me.lblBViolet = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -116,6 +116,86 @@ Partial Class Frmlab3
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "FornColor"
         '
+        'lblFSky
+        '
+        Me.lblFSky.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblFSky.Location = New System.Drawing.Point(178, 58)
+        Me.lblFSky.Name = "lblFSky"
+        Me.lblFSky.Size = New System.Drawing.Size(37, 26)
+        Me.lblFSky.TabIndex = 15
+        '
+        'lblFWhile
+        '
+        Me.lblFWhile.BackColor = System.Drawing.Color.White
+        Me.lblFWhile.Location = New System.Drawing.Point(135, 58)
+        Me.lblFWhile.Name = "lblFWhile"
+        Me.lblFWhile.Size = New System.Drawing.Size(37, 26)
+        Me.lblFWhile.TabIndex = 14
+        '
+        'lblFBeown
+        '
+        Me.lblFBeown.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblFBeown.Location = New System.Drawing.Point(92, 58)
+        Me.lblFBeown.Name = "lblFBeown"
+        Me.lblFBeown.Size = New System.Drawing.Size(37, 26)
+        Me.lblFBeown.TabIndex = 13
+        '
+        'lblFYellow
+        '
+        Me.lblFYellow.BackColor = System.Drawing.Color.Yellow
+        Me.lblFYellow.Location = New System.Drawing.Point(49, 58)
+        Me.lblFYellow.Name = "lblFYellow"
+        Me.lblFYellow.Size = New System.Drawing.Size(37, 26)
+        Me.lblFYellow.TabIndex = 12
+        '
+        'lblFOrange
+        '
+        Me.lblFOrange.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblFOrange.Location = New System.Drawing.Point(6, 58)
+        Me.lblFOrange.Name = "lblFOrange"
+        Me.lblFOrange.Size = New System.Drawing.Size(37, 26)
+        Me.lblFOrange.TabIndex = 11
+        '
+        'lblFBlack
+        '
+        Me.lblFBlack.BackColor = System.Drawing.Color.Black
+        Me.lblFBlack.Location = New System.Drawing.Point(178, 24)
+        Me.lblFBlack.Name = "lblFBlack"
+        Me.lblFBlack.Size = New System.Drawing.Size(37, 26)
+        Me.lblFBlack.TabIndex = 10
+        '
+        'lblFViolet
+        '
+        Me.lblFViolet.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblFViolet.Location = New System.Drawing.Point(135, 24)
+        Me.lblFViolet.Name = "lblFViolet"
+        Me.lblFViolet.Size = New System.Drawing.Size(37, 26)
+        Me.lblFViolet.TabIndex = 9
+        '
+        'lblFGreen
+        '
+        Me.lblFGreen.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblFGreen.Location = New System.Drawing.Point(92, 24)
+        Me.lblFGreen.Name = "lblFGreen"
+        Me.lblFGreen.Size = New System.Drawing.Size(37, 26)
+        Me.lblFGreen.TabIndex = 8
+        '
+        'lblFBlue
+        '
+        Me.lblFBlue.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.lblFBlue.Location = New System.Drawing.Point(49, 24)
+        Me.lblFBlue.Name = "lblFBlue"
+        Me.lblFBlue.Size = New System.Drawing.Size(37, 26)
+        Me.lblFBlue.TabIndex = 7
+        '
+        'lblFRad
+        '
+        Me.lblFRad.BackColor = System.Drawing.Color.Red
+        Me.lblFRad.Location = New System.Drawing.Point(6, 24)
+        Me.lblFRad.Name = "lblFRad"
+        Me.lblFRad.Size = New System.Drawing.Size(37, 26)
+        Me.lblFRad.TabIndex = 6
+        '
         'GroupBox2
         '
         Me.GroupBox2.BackColor = System.Drawing.SystemColors.ControlDark
@@ -136,86 +216,6 @@ Partial Class Frmlab3
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "BigColor"
         '
-        'lblFRad
-        '
-        Me.lblFRad.BackColor = System.Drawing.Color.Red
-        Me.lblFRad.Location = New System.Drawing.Point(6, 24)
-        Me.lblFRad.Name = "lblFRad"
-        Me.lblFRad.Size = New System.Drawing.Size(37, 26)
-        Me.lblFRad.TabIndex = 6
-        '
-        'lblFBlue
-        '
-        Me.lblFBlue.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblFBlue.Location = New System.Drawing.Point(49, 24)
-        Me.lblFBlue.Name = "lblFBlue"
-        Me.lblFBlue.Size = New System.Drawing.Size(37, 26)
-        Me.lblFBlue.TabIndex = 7
-        '
-        'lblFGreen
-        '
-        Me.lblFGreen.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblFGreen.Location = New System.Drawing.Point(92, 24)
-        Me.lblFGreen.Name = "lblFGreen"
-        Me.lblFGreen.Size = New System.Drawing.Size(37, 26)
-        Me.lblFGreen.TabIndex = 8
-        '
-        'lblFViolet
-        '
-        Me.lblFViolet.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblFViolet.Location = New System.Drawing.Point(135, 24)
-        Me.lblFViolet.Name = "lblFViolet"
-        Me.lblFViolet.Size = New System.Drawing.Size(37, 26)
-        Me.lblFViolet.TabIndex = 9
-        '
-        'lblFBlack
-        '
-        Me.lblFBlack.BackColor = System.Drawing.Color.Black
-        Me.lblFBlack.Location = New System.Drawing.Point(178, 24)
-        Me.lblFBlack.Name = "lblFBlack"
-        Me.lblFBlack.Size = New System.Drawing.Size(37, 26)
-        Me.lblFBlack.TabIndex = 10
-        '
-        'lblFOrange
-        '
-        Me.lblFOrange.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblFOrange.Location = New System.Drawing.Point(6, 58)
-        Me.lblFOrange.Name = "lblFOrange"
-        Me.lblFOrange.Size = New System.Drawing.Size(37, 26)
-        Me.lblFOrange.TabIndex = 11
-        '
-        'lblFYellow
-        '
-        Me.lblFYellow.BackColor = System.Drawing.Color.Yellow
-        Me.lblFYellow.Location = New System.Drawing.Point(49, 58)
-        Me.lblFYellow.Name = "lblFYellow"
-        Me.lblFYellow.Size = New System.Drawing.Size(37, 26)
-        Me.lblFYellow.TabIndex = 12
-        '
-        'lblFBeown
-        '
-        Me.lblFBeown.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblFBeown.Location = New System.Drawing.Point(92, 58)
-        Me.lblFBeown.Name = "lblFBeown"
-        Me.lblFBeown.Size = New System.Drawing.Size(37, 26)
-        Me.lblFBeown.TabIndex = 13
-        '
-        'lblFWhile
-        '
-        Me.lblFWhile.BackColor = System.Drawing.Color.White
-        Me.lblFWhile.Location = New System.Drawing.Point(135, 58)
-        Me.lblFWhile.Name = "lblFWhile"
-        Me.lblFWhile.Size = New System.Drawing.Size(37, 26)
-        Me.lblFWhile.TabIndex = 14
-        '
-        'lblFSky
-        '
-        Me.lblFSky.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblFSky.Location = New System.Drawing.Point(178, 58)
-        Me.lblFSky.Name = "lblFSky"
-        Me.lblFSky.Size = New System.Drawing.Size(37, 26)
-        Me.lblFSky.TabIndex = 15
-        '
         'lblBSky
         '
         Me.lblBSky.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -223,38 +223,6 @@ Partial Class Frmlab3
         Me.lblBSky.Name = "lblBSky"
         Me.lblBSky.Size = New System.Drawing.Size(37, 26)
         Me.lblBSky.TabIndex = 25
-        '
-        'lblBWhite
-        '
-        Me.lblBWhite.BackColor = System.Drawing.Color.White
-        Me.lblBWhite.Location = New System.Drawing.Point(141, 58)
-        Me.lblBWhite.Name = "lblBWhite"
-        Me.lblBWhite.Size = New System.Drawing.Size(37, 26)
-        Me.lblBWhite.TabIndex = 24
-        '
-        'lblBBrown
-        '
-        Me.lblBBrown.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblBBrown.Location = New System.Drawing.Point(98, 58)
-        Me.lblBBrown.Name = "lblBBrown"
-        Me.lblBBrown.Size = New System.Drawing.Size(37, 26)
-        Me.lblBBrown.TabIndex = 23
-        '
-        'lblBYellow
-        '
-        Me.lblBYellow.BackColor = System.Drawing.Color.Yellow
-        Me.lblBYellow.Location = New System.Drawing.Point(55, 58)
-        Me.lblBYellow.Name = "lblBYellow"
-        Me.lblBYellow.Size = New System.Drawing.Size(37, 26)
-        Me.lblBYellow.TabIndex = 22
-        '
-        'lblBOrange
-        '
-        Me.lblBOrange.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblBOrange.Location = New System.Drawing.Point(12, 58)
-        Me.lblBOrange.Name = "lblBOrange"
-        Me.lblBOrange.Size = New System.Drawing.Size(37, 26)
-        Me.lblBOrange.TabIndex = 21
         '
         'lblBBlack
         '
@@ -264,21 +232,29 @@ Partial Class Frmlab3
         Me.lblBBlack.Size = New System.Drawing.Size(37, 26)
         Me.lblBBlack.TabIndex = 20
         '
-        'lblBViolet
+        'lblBWhite
         '
-        Me.lblBViolet.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.lblBViolet.Location = New System.Drawing.Point(141, 24)
-        Me.lblBViolet.Name = "lblBViolet"
-        Me.lblBViolet.Size = New System.Drawing.Size(37, 26)
-        Me.lblBViolet.TabIndex = 19
+        Me.lblBWhite.BackColor = System.Drawing.Color.White
+        Me.lblBWhite.Location = New System.Drawing.Point(141, 58)
+        Me.lblBWhite.Name = "lblBWhite"
+        Me.lblBWhite.Size = New System.Drawing.Size(37, 26)
+        Me.lblBWhite.TabIndex = 24
         '
-        'lblBGreen
+        'lblBRad
         '
-        Me.lblBGreen.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.lblBGreen.Location = New System.Drawing.Point(98, 24)
-        Me.lblBGreen.Name = "lblBGreen"
-        Me.lblBGreen.Size = New System.Drawing.Size(37, 26)
-        Me.lblBGreen.TabIndex = 18
+        Me.lblBRad.BackColor = System.Drawing.Color.Red
+        Me.lblBRad.Location = New System.Drawing.Point(12, 24)
+        Me.lblBRad.Name = "lblBRad"
+        Me.lblBRad.Size = New System.Drawing.Size(37, 26)
+        Me.lblBRad.TabIndex = 16
+        '
+        'lblBBrown
+        '
+        Me.lblBBrown.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblBBrown.Location = New System.Drawing.Point(98, 58)
+        Me.lblBBrown.Name = "lblBBrown"
+        Me.lblBBrown.Size = New System.Drawing.Size(37, 26)
+        Me.lblBBrown.TabIndex = 23
         '
         'lblBBlue
         '
@@ -288,13 +264,37 @@ Partial Class Frmlab3
         Me.lblBBlue.Size = New System.Drawing.Size(37, 26)
         Me.lblBBlue.TabIndex = 17
         '
-        'lblBRad
+        'lblBYellow
         '
-        Me.lblBRad.BackColor = System.Drawing.Color.Red
-        Me.lblBRad.Location = New System.Drawing.Point(12, 24)
-        Me.lblBRad.Name = "lblBRad"
-        Me.lblBRad.Size = New System.Drawing.Size(37, 26)
-        Me.lblBRad.TabIndex = 16
+        Me.lblBYellow.BackColor = System.Drawing.Color.Yellow
+        Me.lblBYellow.Location = New System.Drawing.Point(55, 58)
+        Me.lblBYellow.Name = "lblBYellow"
+        Me.lblBYellow.Size = New System.Drawing.Size(37, 26)
+        Me.lblBYellow.TabIndex = 22
+        '
+        'lblBGreen
+        '
+        Me.lblBGreen.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblBGreen.Location = New System.Drawing.Point(98, 24)
+        Me.lblBGreen.Name = "lblBGreen"
+        Me.lblBGreen.Size = New System.Drawing.Size(37, 26)
+        Me.lblBGreen.TabIndex = 18
+        '
+        'lblBOrange
+        '
+        Me.lblBOrange.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lblBOrange.Location = New System.Drawing.Point(12, 58)
+        Me.lblBOrange.Name = "lblBOrange"
+        Me.lblBOrange.Size = New System.Drawing.Size(37, 26)
+        Me.lblBOrange.TabIndex = 21
+        '
+        'lblBViolet
+        '
+        Me.lblBViolet.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.lblBViolet.Location = New System.Drawing.Point(141, 24)
+        Me.lblBViolet.Name = "lblBViolet"
+        Me.lblBViolet.Size = New System.Drawing.Size(37, 26)
+        Me.lblBViolet.TabIndex = 19
         '
         'Label1
         '
@@ -342,7 +342,7 @@ Partial Class Frmlab3
         Me.Controls.Add(Me.btnDown)
         Me.Controls.Add(Me.btnUp)
         Me.Name = "Frmlab3"
-        Me.Text = "Frmlab3"
+        Me.Text = " "
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         Me.ResumeLayout(False)
