@@ -22,3 +22,4 @@ D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.Frmlab3.resources
 D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.frmJob4.resources
 D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.frmLab5.resources
 D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.frmJob6.resources
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.frmLab7.resources

@@ -22,7 +22,7 @@
             chkFree3.Enabled = True
         Else
             If MsgBox("ต้องการยกเลิก", vbYesNo) = vbYes Then
-                lblPaidPrice.Text = ""
+
                 chkItemsAdd1.Enabled = False
                 chkItemsAdd2.Enabled = False
                 chkItemsAdd3.Enabled = False
@@ -38,6 +38,7 @@
                 chkFree2.Checked = False
                 chkFree3.Checked = False
                 chkCarForMe.Checked = False
+                lblPaidPrice.Text = ""
 
             Else
                 chkCarForMe.Checked = True
@@ -86,10 +87,10 @@
 
     Private Sub chkItemsAdd4_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles chkItemsAdd4.CheckedChanged
         If chkItemsAdd4.Checked Then
-            total = total + 20000
+            total = total + 30000
             lblPaidPrice.Text = total
         ElseIf chkItemsAdd4.Checked = False Then
-            total = total - 20000
+            total = total - 30000
             lblPaidPrice.Text = total
         End If
     End Sub
