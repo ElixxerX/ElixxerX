@@ -90,7 +90,7 @@
     End Sub
 
     Private Sub lstAdd_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lstAdd.SelectedIndexChanged
-        lblOutput.Text = lstAdd.SelectedItem
+
     End Sub
 
     Private Sub btnClear_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnClear.Click
@@ -103,5 +103,13 @@
 
     Private Sub btnExit_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnExit.Click
         Close()
+    End Sub
+
+    Private Sub lblOutput_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblOutput.Click
+
+    End Sub
+
+    Private Sub cboOutpu_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cboOutpu.SelectedIndexChanged
+        lblOutput.Text = cboOutpu.SelectedItem
     End Sub
 End Class

@@ -84,6 +84,12 @@
     <Compile Include="frmJob6.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmlab10.Designer.vb">
+      <DependentUpon>frmlab10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlab10.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frmlab3.Designer.vb">
       <DependentUpon>Frmlab3.vb</DependentUpon>
     </Compile>
@@ -100,6 +106,12 @@
       <DependentUpon>frmLab7.vb</DependentUpon>
     </Compile>
     <Compile Include="frmLab7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLab8.Designer.vb">
+      <DependentUpon>frmLab8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab8.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="lab1.designer.vb">
@@ -119,6 +131,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
+    <Compile Include="My Project\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -137,6 +155,9 @@
     <EmbeddedResource Include="frmJob6.resx">
       <DependentUpon>frmJob6.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmlab10.resx">
+      <DependentUpon>frmlab10.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frmlab3.resx">
       <DependentUpon>Frmlab3.vb</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLab7.resx">
       <DependentUpon>frmLab7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLab8.resx">
+      <DependentUpon>frmLab8.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="lab1.resx">
       <DependentUpon>lab1.vb</DependentUpon>
