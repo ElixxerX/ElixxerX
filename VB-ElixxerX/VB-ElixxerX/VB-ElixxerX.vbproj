@@ -50,6 +50,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
@@ -88,6 +89,12 @@
       <DependentUpon>frmlab10.vb</DependentUpon>
     </Compile>
     <Compile Include="frmlab10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlab11.Designer.vb">
+      <DependentUpon>frmlab11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlab11.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frmlab3.Designer.vb">
@@ -158,6 +165,9 @@
     <EmbeddedResource Include="frmlab10.resx">
       <DependentUpon>frmlab10.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmlab11.resx">
+      <DependentUpon>frmlab11.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frmlab3.resx">
       <DependentUpon>Frmlab3.vb</DependentUpon>
     </EmbeddedResource>
@@ -184,6 +194,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

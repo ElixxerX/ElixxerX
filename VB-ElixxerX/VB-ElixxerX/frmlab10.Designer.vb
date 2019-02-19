@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmlab10
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class frmLab10
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmlab10
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.lstData = New System.Windows.Forms.ListBox()
         Me.lblSumA = New System.Windows.Forms.Label()
@@ -275,7 +275,7 @@ Partial Class frmlab10
         Me.Label12.TabIndex = 33
         Me.Label12.Text = "ยอดขายC"
         '
-        'frmlab10
+        'frmLab10
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -305,7 +305,7 @@ Partial Class frmlab10
         Me.Controls.Add(Me.lblSumB)
         Me.Controls.Add(Me.lblSumA)
         Me.Controls.Add(Me.lstData)
-        Me.Name = "frmlab10"
+        Me.Name = "frmLab10"
         Me.Text = "frmlab10"
         Me.ResumeLayout(False)
         Me.PerformLayout()

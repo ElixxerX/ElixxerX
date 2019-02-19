@@ -175,6 +175,7 @@ Partial Class frmLab8
         Me.lblOldTotalScore.Name = "lblOldTotalScore"
         Me.lblOldTotalScore.Size = New System.Drawing.Size(82, 39)
         Me.lblOldTotalScore.TabIndex = 17
+        Me.lblOldTotalScore.Text = "150"
         '
         'lblOldTotalCredit
         '
@@ -184,6 +185,7 @@ Partial Class frmLab8
         Me.lblOldTotalCredit.Name = "lblOldTotalCredit"
         Me.lblOldTotalCredit.Size = New System.Drawing.Size(82, 39)
         Me.lblOldTotalCredit.TabIndex = 18
+        Me.lblOldTotalCredit.Text = "50"
         '
         'lblOldGPA
         '
@@ -193,6 +195,7 @@ Partial Class frmLab8
         Me.lblOldGPA.Name = "lblOldGPA"
         Me.lblOldGPA.Size = New System.Drawing.Size(82, 39)
         Me.lblOldGPA.TabIndex = 19
+        Me.lblOldGPA.Text = "3.00"
         '
         'lblNewGPA
         '

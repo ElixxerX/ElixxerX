@@ -27,3 +27,5 @@ D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.frmLab8.resources
 D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB-ElixxerX.vbprojAssemblyReference.cache
 D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.frmlab10.resources
 D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB-ElixxerX.vbproj.CoreCompileInputs.cache
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\bin\Debug\VB-ElixxerX.exe.config
+D:\ElixxerX\VB-ElixxerX\VB-ElixxerX\obj\x86\Debug\VB_ElixxerX.frmlab11.resources
