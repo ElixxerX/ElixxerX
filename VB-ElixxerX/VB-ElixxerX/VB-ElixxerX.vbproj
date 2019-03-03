@@ -144,6 +144,12 @@
     <Compile Include="My Project\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="My Project\frmlab12.Designer.vb">
+      <DependentUpon>frmlab12.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\frmlab12.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -185,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="lab2.resx">
       <DependentUpon>lab2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\frmlab12.resx">
+      <DependentUpon>frmlab12.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
